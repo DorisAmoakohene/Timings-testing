@@ -4,7 +4,6 @@ library(data.table)
 library(ggplot2)
 library(git2r)
 
-
 tdir <- tempfile()
 dir.create(tdir)
 git2r::clone("https://github.com/Rdatatable/data.table", tdir)
